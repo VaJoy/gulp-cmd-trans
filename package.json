@@ -1,0 +1,44 @@
+{
+  "name": "gulp-cmd-trans",
+  "version": "0.1.1",
+  "description": "processed version of grunt-cmd-transport.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "clean-css": "~2.1.8",
+    "cmd-util": "~0.3.5",
+    "css": "~1.6.0",
+    "event-stream": "~3.1.1",
+    "gulp": "^3.9.0",
+    "gulp-util": "~2.2.14",
+    "handlebars": "~2.0.0-alpha.2",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.0",
+    "should": "~3.3.0",
+    "gulp-clean": "~0.2.4",
+    "run-sequence": "~0.3.6",
+    "gulp-jshint": "~1.5.3",
+    "gulp-mocha": "~0.4.1"
+  },
+  "scripts": {
+    "start": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vajoy/gulp-cmd-trans"
+  },
+  "keywords": [
+    "gulpplugin",
+    "cmd"
+  ],
+  "author": "vajoylarn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vajoy/gulp-cmd-trans/issues"
+  },
+  "homepage": "https://github.com/vajoy/gulp-cmd-trans"
+}
